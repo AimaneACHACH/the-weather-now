@@ -1,0 +1,59 @@
+.weather{
+    background-color: #d0e8ff26;
+    margin: 2rem;
+    border-radius: 2rem;
+    padding: 2rem;
+    gap: 1rem;
+    box-shadow: 1px 1px 15px 0px rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(20px);
+}
+.weatherSearch{
+    gap: 1rem;
+}
+.weatherSearch > input{
+    width: 20rem;
+    height: 3rem;
+    background: transparent;
+    text-align: center;
+    font-size: x-large;
+}
+.weatherSearch > input:hover{
+    scale: 105%;
+}
+.weatherSearch > input::placeholder {
+    font-size: x-large;
+    text-align: center;
+}
+.weatherSearch > button{
+    height: 3rem;
+    width: 10rem;
+    border-radius: 0.8rem;
+    font-size: x-large;
+    font-weight: 500;
+    background: #33495F;
+    color: #d0e8ff;
+    box-shadow: 1px 2px 3px 0px rgba(0, 0, 0, 0.6);
+}
+.weatherSearch > button:hover{
+   scale: 105%;
+}
+.more{
+    font-size: large;
+}
+img:hover{
+    scale: 120%;
+}
+img{
+    width: 5rem;
+}
+.weatherLocation{
+   text-align: center;
+    font-size: large;
+    flex-basis: 20%;
+}
+/*-----------------media queries(small devices)---------------------*/
+@media screen and (max-width : 600px) {
+.weather{
+    scale: 80%;
+}
+}
