@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/the-weather-now/static/css/main.be10ed17.css",
+    "main.js": "/the-weather-now/static/js/main.a6f30e13.js",
+    "static/media/wallpaper.jpg": "/the-weather-now/static/media/wallpaper.f9310f2f37bf45327f0c.jpg",
+    "index.html": "/the-weather-now/index.html",
+    "main.be10ed17.css.map": "/the-weather-now/static/css/main.be10ed17.css.map",
+    "main.a6f30e13.js.map": "/the-weather-now/static/js/main.a6f30e13.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.be10ed17.css",
+    "static/js/main.a6f30e13.js"
+  ]
+}
